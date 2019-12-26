@@ -41,4 +41,4 @@ api.add_resource(Employees_Name, '/employees/<employee_id>') # Route_3
 api.add_resource(Tracks_Name, '/tracks/<track_id>') # Route_4
 
 if __name__ == '__main__':
-    app.run(port='5002')
+    app.run(host='0.0.0.0', port='5002')
